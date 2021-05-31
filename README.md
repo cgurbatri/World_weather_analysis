@@ -14,12 +14,12 @@ Software: Python 3.8.5, Anaconda 4.10.1, Jupyter Notebook 6.1.4
 Data sources: citipy, jupyter gmaps, openweather API, google maps and places API, google maps and directions API
 
 ## Results
-** [WeatherPy_Database.csv](https://github.com/cgurbatri/World_weather_analysis/files/6572101/WeatherPy_Database.csv)**
+[WeatherPy_Database.csv](https://github.com/cgurbatri/World_weather_analysis/files/6572101/WeatherPy_Database.csv)
 is a CSV file of randommly generate cities and their cooresponding weather information including: maximum temperature, cloudiness, wind speed and current weather conditions. Other identifying information includes country and latitude and longitude coordinates. Please note, this file can also be found in the Weather_Database folder. 
 
 Method: Random module in Numpy was used to generate 2,000 sets of longitude and latitude coordinates. Citipy module can then be used to identify the nearest city to each set of coordinates. Finally, a request through the openweather API was used to retrieve the weather information the generated cities. 
 
-Based on user preference regarding maximum and minimum temperature for their ideal destination city, the dataframe of the CSV file above is filtered, generating the following CSV file **[WeatherPy_vacation.csv](https://github.com/cgurbatri/World_weather_analysis/files/6572192/WeatherPy_vacation.csv)**
+Based on user preference regarding maximum and minimum temperature for their ideal destination city, the dataframe of the CSV file above is filtered, generating the following CSV file [WeatherPy_vacation.csv](https://github.com/cgurbatri/World_weather_analysis/files/6572192/WeatherPy_vacation.csv)
 
 **Fig. 1** below is an example of a map the user would see, where markers indicate cities that meet their temperature criteria. When a marker is clicked, the following information is also displayed: a nearby hotel, country name, city name, and current weather conditions.
 
